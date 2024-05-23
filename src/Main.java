@@ -2,19 +2,20 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Main.numdr(10, 0);
+        example(10, 0);
 
-        }
-        public static void numdr(int numdr1, int numdr2){
+    }
+
+    public static void example(int dividend, int divider) {
         try {
-            int numdr3 = numdr1/ numdr2;
+            int divisionOperation = dividend / divider;
 
-        }catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.err.println("Ошибка: делить на 0 нельзя");
         }
 
-        }
     }
+}
 
 
         
